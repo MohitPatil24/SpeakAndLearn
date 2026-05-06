@@ -18,7 +18,7 @@ const SpeakButton = ({
   return (
     <button
       onClick={speak}
-      className="bg-purple-400 text-white px-4 py-2 rounded-xl shadow hover:scale-105"
+      className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-violet-500 to-purple-600 px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base font-semibold text-white shadow-lg shadow-violet-500/20 transition hover:-translate-y-0.5 min-h-[44px] touch-manipulation"
     >
       🔊 Listen
     </button>
